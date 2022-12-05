@@ -16,7 +16,7 @@
 
 ## About Me 
 
-Hi, My name is Zhana. Now I'm living in St Petersburg, Russia. I have a bachelor degree in economy(St Petersburg Politechnic University). After graduation i worked as a sales manager in constraction company, but there I realised that this job did not suit me. So i figured out frontend development. I tried some free courses, and decided to continue investigation of this field. Nowadays i'm a student of SkyPro web-developers course, and since december i started Rolling Scopes school corses. 
+Hi, My name is Zhana. Now I'm living in St Petersburg, Russia. I have a bachelor degree in economy(St Petersburg Politechnic University). After graduation i worked as a sales manager in constraction company, but there I realised that this job did not suit me. So i figured out frontend development. I tried some free courses, and decided to continue investigation of this field. Nowadays i'm a student of SkyPro web-developers course, and since december i started Rolling Scopes school course. 
 
 ## Skills
 
