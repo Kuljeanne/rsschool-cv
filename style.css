@@ -8,8 +8,8 @@ body {
     
 }
 .center {
-    padding-left: calc(50% - 580px);
-    padding-right: calc(50% - 580px);
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
 }
 .page_header{
     margin-top: 40px;
@@ -100,5 +100,76 @@ body {
 }
 .skills_item::marker{
     font-size: 2rem;
-    
+}
+.code{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.code_title{
+    font-size: 40px;
+}
+.code_example{
+    padding: 10px;
+    white-space: pre;
+    background-color: #bc5c5b;
+    box-shadow: 
+    0 0 5px 5px #f7d9ca,
+    inset 0 0 5px 5px #573333;
+    font-size: 18px;
+}
+.lang{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.lang_title{
+    font-size: 40px;
+}
+.lang_name{
+    font-size: 24px;
+}
+.lang_text{
+    padding: 10px;
+    font-size: 18px;
+    border: dashed;
+}
+.page_footer{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10pxgit;
+    background-color: #bc5c5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rs_logo{
+    width: 100px;
+    padding: 5px;
+}
+.rs_logo:hover{
+    box-shadow: 0 0 2px 2px #573333;
+}
+.rs_logo:active{
+    box-shadow: inset 0 0 2px 2px #573333;
+}
+.git{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#f7d9ca;
+    padding: 5px;
+}
+.git:hover{
+    box-shadow: 0 0 2px 2px #573333;
+}
+.git:active{
+    box-shadow: inset 0 0 2px 2px #573333;
+}
+.year{
+    color:#f7d9ca;
 }
