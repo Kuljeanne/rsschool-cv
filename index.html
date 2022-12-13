@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="center">
+    <header class="page_header center">
         <div class="header_intro">
             <img src="img/cv.jpg" alt="photo">
             <div class="name">
@@ -18,47 +18,54 @@
                 <h2>Junior Frontend Developer</h2>
             </div>
         </div>
-        <hr>
-        <h2>Contacts</h2>
-        <ul>
+        <h2 class="contacts_title">Contacts</h2>
+        <ul class="contacts_list">
             <li>location:Russia, St Petersburg</li>
             <li>email: kuljeanne@gmail.com</li>
             <li>discord: Zhanna Kulagina (@kuljeanne)</li>
             <li>telegram: @kuljeanne</li>
         </ul>
     </header>
-    <section class="main center">
-        <div class="about">
-            <h2> About Me</h2>
-            <p>Hi, My name is Zhana. Now I'm living in St Petersburg, Russia. I have a bachelor degree in economy(St
-                Petersburg Politechnic University). After graduation i worked as a sales manager in constraction
-                company, but there I realised that this job did not suit me. So i figured out frontend development. I
-                tried some free courses, and decided to continue investigation of this field. Nowadays i'm a student of
-                SkyPro web-developers course, and since december i started Rolling Scopes school course. </p>
-        </div>
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS/SASS</li>
-                <li>JavaScript (Basics)</li>
-                <li>GIT</li>
+    <main class="page_main center">
+        <section class="about">
+            <h2 class="about_title"> About Me</h2>
+            <p class="about_text">Hi, My name is Zhana. I'm living in St Petersburg, Russia. I have a bachelor degree in
+                economy(St
+                Petersburg Politechnic University). Nowadays i'm a student of SkyPro web-developers course, and since
+                december i started Rolling Scopes School course. </p>
+            <p class="about_text"></p>
+        </section>
+        <section class="skills">
+            <h2 class="skills_title">Skills</h2>
+            <ul class="skills_list">
+                <li class="skills_item">HTML</li>
+                <li class="skills_item">CSS/SASS</li>
+                <li class="skills_item">JavaScript (Basics)</li>
+                <li class="skills_item">GIT</li>
             </ul>
-        </div>
-        <div class="code">
-            <h2>Code Example</h2>
-            <p class="coding">function multiply(a, b){<br>
+        </section>
+        <section class="code">
+            <h2 class="code_title">Code Example</h2>
+            <p class="code_example">function multiply(a, b){<br>
                 return a * b<br>
                 }</p>
-        </div>
-        <div class="language">
-            <h2>Languages</h2>
-            <p><b>English</b> - upper-intermediate level.</p>
-            <p>I heve been learning English since i was at School. In University time I was a tutor who helped exchange
+        </section>
+        <section class="lang">
+            <h2 class="lang_title">Languages</h2>
+            <p class="lang_name"><b>English</b> - upper-intermediate level.</p>
+            <p class="lang_text">I heve been learning English since i was at School. In University time I was a tutor who helped exchange
                 student, so i have preatty good speaking expirience. Alsp i vahe participated in Work and Travell USA
                 programm in 2018. I worked the whole summer in Texas.</p>
-        </div>
-    </section>
+        </section>
+    </main>
+    <footer class="page_footer">
+        <p class="year">2022 Zhanna Kulagina</p>
+        <a href="https://github.com/Kuljeanne">GITHUB</a>
+        <a href="https://rs.school/js/">
+            <img src="img/rs_school_js.svg" alt="RSSCHOOL">
+        </a>
+
+    </footer>
 </body>
 
 </html>
