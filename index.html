@@ -10,55 +10,75 @@
 </head>
 
 <body>
-    <header class="center">
+    <header class="page_header center">
         <div class="header_intro">
-            <img src="img/cv.jpg" alt="photo">
+            <img class="photo" src="img/cv.jpg" alt="photo">
             <div class="name">
                 <h1>Zhanna Kulagina</h1>
+                <hr>
                 <h2>Junior Frontend Developer</h2>
             </div>
         </div>
-        <hr>
-        <h2>Contacts</h2>
-        <ul>
-            <li>location:Russia, St Petersburg</li>
-            <li>email: kuljeanne@gmail.com</li>
-            <li>discord: Zhanna Kulagina (@kuljeanne)</li>
-            <li>telegram: @kuljeanne</li>
+        <ul class="contacts_list">
+            <li><img class="logo_contacts" src="img/location.svg" alt="location"> Russia, St Petersburg</li>
+            <li><img class="logo_contacts" src="img/mail.svg" alt="email"> kuljeanne@gmail.com</li>
+            <li><img class="logo_contacts" src="img/discord.svg" alt="discord"> Zhanna Kulagina (@kuljeanne)</li>
+            <li><img class="logo_contacts" src="img/telegram-app.svg" alt="telegram"> @kuljeanne</li>
         </ul>
     </header>
-    <section class="main center">
-        <div class="about">
-            <h2> About Me</h2>
-            <p>Hi, My name is Zhana. Now I'm living in St Petersburg, Russia. I have a bachelor degree in economy(St
-                Petersburg Politechnic University). After graduation i worked as a sales manager in constraction
-                company, but there I realised that this job did not suit me. So i figured out frontend development. I
-                tried some free courses, and decided to continue investigation of this field. Nowadays i'm a student of
-                SkyPro web-developers course, and since december i started Rolling Scopes school course. </p>
-        </div>
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS/SASS</li>
-                <li>JavaScript (Basics)</li>
-                <li>GIT</li>
-            </ul>
-        </div>
-        <div class="code">
-            <h2>Code Example</h2>
-            <p class="coding">function multiply(a, b){<br>
-                return a * b<br>
-                }</p>
-        </div>
-        <div class="language">
-            <h2>Languages</h2>
-            <p><b>English</b> - upper-intermediate level.</p>
-            <p>I heve been learning English since i was at School. In University time I was a tutor who helped exchange
-                student, so i have preatty good speaking expirience. Alsp i vahe participated in Work and Travell USA
-                programm in 2018. I worked the whole summer in Texas.</p>
-        </div>
-    </section>
+    <main class="page_main center">
+        <section class="about">
+            <h2 class="about_title"> About Me</h2>
+            <p class="about_text">Hi, My name is Zhanna. I'm living in St Petersburg, Russia. I have a bachelor degree
+                in
+                economy (St.Petersburg Politechnic University). </p>
+            <p class="about_text">Nowadays I'm a student of SkyPro web-development course, and since
+                december I started Rolling Scopes School course. I have good knowledges of HTML and CSS, know basics of JavaScript and now i learning DOM</p>
+        </section>
+        <section class="skills">
+            <h2 class="skills_title">Skills</h2>
+            <div class="skills_box">
+                <ul class="skills_list">
+                    <li class="skills_item">HTML</li>
+                    <li class="skills_item">CSS/SASS</li>
+                    <li class="skills_item">JavaScript (Basics)</li>
+                    <li class="skills_item">GIT</li>
+                </ul>
+            </div>
+        </section>
+        <section class="code">
+            <h2 class="code_title">Code Example</h2>
+            <code class="code_example">function shadesOfGrey(n){
+                // returns n shades of grey in an array
+                let result = [];
+                for (let i = 1; i &lt;=  Math.min(n, 254); i++){
+                  let shades = (0 + i.toString(16)).slice(-2);
+                  result.push('#' + shades + shades + shades)
+                };
+                return result;
+              }</code>
+            <p class="coding_text">
+                As I'm still new in web-development, i don't have much projects, but there is my <a
+                    href="https://www.codewars.com/users/Kuljeanne">CodeWars Profile</a> and <a
+                    href="https://github.com/Kuljeanne"> GITHUB</a>
+            </p>
+        </section>
+        <section class="lang">
+            <h2 class="lang_title">Languages</h2>
+            <p class="lang_name"><b>English</b> - upper-intermediate level.</p>
+            <p class="lang_text">I have been learning English since i was at School. In University time I was a tutor
+                who helped exchange
+                student, so i have pretty good speaking expirience. Also I have participated in Work and Travell USA
+                programm in 2018.</p>
+        </section>
+    </main>
+    <footer class="page_footer center">
+        <p class="year">&copy; 2022 Zhanna Kulagina</p>
+        <a class="git" href="https://github.com/Kuljeanne"><img src="./img/github.svg" alt="GITHUB"> GITHUB</a>
+        <a href="https://rs.school/js/">
+            <img class="rs_logo" src="img/rs_school_js.svg" alt="RSSCHOOL">
+        </a>
+    </footer>
 </body>
 
 </html>
