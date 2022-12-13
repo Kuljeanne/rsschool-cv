@@ -66,7 +66,7 @@ body {
     font-size: 40px;
 }
 .about_text{
-    font-size: 28px;
+    font-size: 26gitpx;
     text-align: center;
 }
 
@@ -118,6 +118,9 @@ body {
     box-shadow: 
     0 0 5px 5px #f7d9ca,
     inset 0 0 5px 5px #573333;
+    font-size: 18px;
+}
+.coding_text{
     font-size: 18px;
 }
 .lang{
