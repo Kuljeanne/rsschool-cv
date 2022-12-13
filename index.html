@@ -12,48 +12,56 @@
 <body>
     <header class="page_header center">
         <div class="header_intro">
-            <img src="img/cv.jpg" alt="photo">
+            <img class="photo" src="img/cv.jpg" alt="photo">
             <div class="name">
                 <h1>Zhanna Kulagina</h1>
+                <hr>
                 <h2>Junior Frontend Developer</h2>
             </div>
         </div>
-        <h2 class="contacts_title">Contacts</h2>
         <ul class="contacts_list">
-            <li>location:Russia, St Petersburg</li>
-            <li>email: kuljeanne@gmail.com</li>
-            <li>discord: Zhanna Kulagina (@kuljeanne)</li>
-            <li>telegram: @kuljeanne</li>
+            <li><img class="logo_contacts" src="img/location.svg" alt="location"> Russia, St Petersburg</li>
+            <li><img class="logo_contacts" src="img/mail.svg" alt="email"> kuljeanne@gmail.com</li>
+            <li><img class="logo_contacts" src="img/discord.svg" alt="discord"> Zhanna Kulagina (@kuljeanne)</li>
+            <li><img class="logo_contacts" src="img/telegram-app.svg" alt="telegram"> @kuljeanne</li>
         </ul>
     </header>
     <main class="page_main center">
         <section class="about">
             <h2 class="about_title"> About Me</h2>
             <p class="about_text">Hi, My name is Zhana. I'm living in St Petersburg, Russia. I have a bachelor degree in
-                economy(St
-                Petersburg Politechnic University). Nowadays i'm a student of SkyPro web-developers course, and since
-                december i started Rolling Scopes School course. </p>
-            <p class="about_text"></p>
+                economy (St.Petersburg Politechnic University). </p>
+            <p class="about_text">Nowadays I'm a student of SkyPro web-developers course, and since
+                december I started Rolling Scopes School course.</p>
         </section>
         <section class="skills">
             <h2 class="skills_title">Skills</h2>
-            <ul class="skills_list">
-                <li class="skills_item">HTML</li>
-                <li class="skills_item">CSS/SASS</li>
-                <li class="skills_item">JavaScript (Basics)</li>
-                <li class="skills_item">GIT</li>
-            </ul>
+            <div class="skills_box">
+                <ul class="skills_list">
+                    <li class="skills_item">HTML</li>
+                    <li class="skills_item">CSS/SASS</li>
+                    <li class="skills_item">JavaScript (Basics)</li>
+                    <li class="skills_item">GIT</li>
+                </ul>
+            </div>
         </section>
         <section class="code">
             <h2 class="code_title">Code Example</h2>
-            <p class="code_example">function multiply(a, b){<br>
-                return a * b<br>
-                }</p>
+            <code class="code_example">function shadesOfGrey(n){
+                // returns n shades of grey in an array
+                let result = [];
+                for (let i = 1; i <=  Math.min(n, 254); i++){
+                  let shades = (0 + i.toString(16)).slice(-2);
+                  result.push('#' + shades + shades + shades)
+                };
+                return result;
+              }</code>
         </section>
         <section class="lang">
             <h2 class="lang_title">Languages</h2>
             <p class="lang_name"><b>English</b> - upper-intermediate level.</p>
-            <p class="lang_text">I heve been learning English since i was at School. In University time I was a tutor who helped exchange
+            <p class="lang_text">I heve been learning English since i was at School. In University time I was a tutor
+                who helped exchange
                 student, so i have preatty good speaking expirience. Alsp i vahe participated in Work and Travell USA
                 programm in 2018. I worked the whole summer in Texas.</p>
         </section>
@@ -62,7 +70,7 @@
         <p class="year">2022 Zhanna Kulagina</p>
         <a href="https://github.com/Kuljeanne">GITHUB</a>
         <a href="https://rs.school/js/">
-            <img src="img/rs_school_js.svg" alt="RSSCHOOL">
+            <img width="200" src="img/rs_school_js.svg" alt="RSSCHOOL">
         </a>
 
     </footer>
