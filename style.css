@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 body {
     background: -webkit-linear-gradient(90deg, #f7d9ca,#e68684);
