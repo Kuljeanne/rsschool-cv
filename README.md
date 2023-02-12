@@ -1,3 +1,4 @@
 # rsschool-cv
-[CV в формате markdown](https://Kuljeanne.github.io/rsschool-cv/cv)  
-[CV в виде свёрстанной страницы](https://Kuljeanne.github.io/rsschool-cv/)
+[CV markdown](https://Kuljeanne.github.io/rsschool-cv/cv)  
+[CV ntml&css](https://Kuljeanne.github.io/rsschool-cv/)
+CV task for rs school
