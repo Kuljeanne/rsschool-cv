@@ -2,96 +2,100 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <title>CV Zhanna Kulagina</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>CV Zhanna Kulagina</title>
 </head>
 
 <body>
-    <header class="page_header">
-        <nav class="menu center">
-            <ul class="menu_list">
-                <li class="menu_item"><a class="menu_item_link" href="#about">About</a></li>
-                <li class="menu_item"><a class="menu_item_link" href="#contacts">Contacts</a></li>
-                <li class="menu_item"><a class="menu_item_link" href="#skills">Skills</a></li>
-                <li class="menu_item"><a class="menu_item_link" href="#code">Code</a></li>
-                <li class="menu_item"><a class="menu_item_link" href="#lang">Languages</a></li>
-            </ul>
-        </nav>
-    </header>
-    <article class="page_intro center">
-        <div class="intro">
-            <img class="photo" src="img/cv.jpg" alt="photo">
-            <div class="name">
-                <h1>Zhanna Kulagina</h1>
-                <hr>
-                <h2>Junior Frontend Developer</h2>
-            </div>
-        </div>
-        <ul class="contacts_list" id="contacts">
-            <li><img class="logo_contacts" src="img/location.svg" alt="location"> Russia, St Petersburg</li>
-            <li><img class="logo_contacts" src="img/mail.svg" alt="email"> kuljeanne@gmail.com</li>
-            <li><img class="logo_contacts" src="img/discord.svg" alt="discord"> Zhanna Kulagina (@kuljeanne)</li>
-            <li><img class="logo_contacts" src="img/telegram-app.svg" alt="telegram"> @kuljeanne</li>
+  <header class="header">
+    <div class="wrapper center">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="link" href="#about">About</a></li>
+          <li class="menu__item"><a class="link" href="#contacts">Contacts</a></li>
+          <li class="menu__item"><a class="link" href="#skills">Stack</a></li>
+          <li class="menu__item"><a class="link" href="#code">Code</a></li>
+          <li class="menu__item"><a class="link" href="#lang">Languages</a></li>
         </ul>
-    </article>
-    <main class="page_main center">
-        <section class="about" id="about">
-            <h2 class="about_title"> About Me</h2>
-            <p class="about_text">Hi, My name is Zhanna. I'm living in St Petersburg, Russia. I have a bachelor degree
-                in
-                economy (St.Petersburg Politechnic University). </p>
-            <p class="about_text">Nowadays I'm a student of SkyPro web-development course, and since
-                december I started Rolling Scopes School course. I have good knowledges of HTML and CSS, know basics of
-                JavaScript and now i learning DOM</p>
-        </section>
-        <section class="skills" id="skills">
-            <h2 class="skills_title">Skills</h2>
-            <div class="skills_box">
-                <ul class="skills_list">
-                    <li class="skills_item">HTML</li>
-                    <li class="skills_item">CSS/SASS</li>
-                    <li class="skills_item">JavaScript (Basics)</li>
-                    <li class="skills_item">GIT</li>
-                </ul>
-            </div>
-        </section>
-        <section class="code" id="code">
-            <h2 class="code_title">Code Example</h2>
-            <code class="code_example">function shadesOfGrey(n){
-                // returns n shades of grey in an array
-                let result = [];
-                for (let i = 1; i &lt;=  Math.min(n, 254); i++){
-                  let shades = (0 + i.toString(16)).slice(-2);
-                  result.push('#' + shades + shades + shades)
-                };
-                return result;
-              }</code>
-            <p class="coding_text">
-                As I'm still new in web-development, i don't have much projects, but there is my <a
-                    href="https://www.codewars.com/users/Kuljeanne">CodeWars Profile</a> and <a
-                    href="https://github.com/Kuljeanne"> GITHUB</a>
-            </p>
-        </section>
-        <section class="lang" id="lang">
-            <h2 class="lang_title">Languages</h2>
-            <p class="lang_name"><b>English</b> - upper-intermediate level.</p>
-            <p class="lang_text">I have been learning English since i was at School. In University time I was a tutor
-                who helped exchange
-                student, so i have pretty good speaking expirience. Also I have participated in Work and Travell USA
-                programm in 2018.</p>
-        </section>
-    </main>
-    <footer class="page_footer center">
-        <p class="year">&copy; 2022 Zhanna Kulagina</p>
-        <a class="git" href="https://github.com/Kuljeanne"><img src="./img/github.svg" alt="GITHUB"> GITHUB</a>
-        <a href="https://rs.school/js/">
-            <img class="rs_logo" src="img/rs_school_js.svg" alt="RSSCHOOL">
-        </a>
-    </footer>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="wrapper center">
+      <section class="introduction">
+        <div class="intro">
+          <img class="photo" src="img/cv.jpg" alt="Here should be me">
+          <div>
+            <h1 class="name">Жанна Кулагина</h1>
+            <hr>
+            <h2 class="prof">Frontend-Developer</h2>
+          </div>
+        </div>
+        <ul class="contacts-list" id="contacts">
+          <li><img class="logo-contacts" src="img/location.svg" alt="location">Санкт-Петербург</li>
+          <li><img class="logo-contacts" src="img/mail.svg" alt="email"> kuljeanne@gmail.com</li>
+          <li><img class="logo-contacts" src="img/discord.svg" alt="discord"> Zhanna Kulagina (@kuljeanne)</li>
+          <li><img class="logo-contacts" src="img/telegram-app.svg" alt="telegram"> kuljeanne</li>
+          <li><img class="logo-contacts" src="img/contact.svg" alt="telegram"> +79995379066</li>
+        </ul>
+      </section>
+      <section class="about" id="about">
+        <h2 class="about__title">About</h2>
+        <p class="about__text">Образование: закончила Санкт-Петербургский Политехнический университет, специальность
+          экономика</p>
+        <p class="about__text">Дополнительные курсы: Веб-разработчик, ОАНО ДПО «СКАЕНГ»</p>
+        <p class="about__text">
+          Активно изучаю веб-разработку.
+          Уверенные знания: html, css, препроцессор sass, JavaScript. Есть опыт (учебный) на React, в настоящее время
+          делаю уклон на TypeScript. Так же знакома со сборщиками проектов (webpack).
+        </p>
+      </section>
+      <section class="skills" id="skills">
+        <h2 class="skills__title">Stack</h2>
+          <ul class="skills__list">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS + препроцессор SASS/SCSS</li>
+            <li class="skills__item">JavaScript</li>
+            <li class="skills__item">TypeScript</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">Redux</li>
+            <li class="skills__item">GIT</li>
+            <li class="skills__item">WebPack</li>
+          </ul>
+      </section>
+      <section class="code" id="code">
+        <h2 class="code__title">Projects</h2>
+        <!-- <a class="example_project project-1" href="https://kuljeanne.netlify.app"> <img
+          style="width: 560px; height: 350px;" src="img/project_ex1.jpg" alt=""></a>
+      <p>https://kuljeanne.netlify.app</p>
+      <a class="example_project project-2"
+        href="https://rolling-scopes-school.github.io/kuljeanne-JSFEPRESCHOOL2022Q4/momentum/dist/"> <img
+          style="width: 560px;;" src="img/project_ex2.jpg" alt=""></a>
+      <p>https://rolling-scopes-school.github.io/kuljeanne-JSFEPRESCHOOL2022Q4/momentum/dist/</p>
+      <a class="example_project project-3"
+        href="https://rolling-scopes-school.github.io/kuljeanne-JSFEPRESCHOOL2022Q4/plants/"> <img
+          style="width: 560px;;" src="img/project_ex3.jpg" alt=""></a>
+      <p>https://rolling-scopes-school.github.io/kuljeanne-JSFEPRESCHOOL2022Q4/plants/</p> -->
+      </section>
+      <section class="lang" id="lang">
+        <h2 class="lang__title">Languages</h2>
+        <p class="lang__name"><b>English</b> - upper-intermediate level.</p>
+        <p class="lang__text">Английский изучала в школе и университете, также участвовала в программе "Work and Travel
+          USA"</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper wrapper__footer center">
+      <p class="year">&copy; 2023 Zhanna Kulagina</p>
+      <a class="footer__link" href="https://github.com/Kuljeanne"><img src="./img/github.svg" alt="CodeWars"> CodeWars</a>
+      <a class="footer__link" href="https://github.com/Kuljeanne"><img src="./img/github.svg" alt="GITHUB"> GITHUB</a>
+    </div>
+  </footer>
 </body>
 
 </html>
